@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+header {
+    background-color: #67a7b8;
+    color: #fff;
+}
+.logo{
+    font-size: 2em;
+}
+article {
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+article h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+} 
+article p {
+    background-color: #f2f2f2;
+    padding: 0.5em;
+}
